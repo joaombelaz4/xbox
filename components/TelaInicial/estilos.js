@@ -1,47 +1,53 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 const estilos = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    backgroundColor: '#1b1b1b',
     alignItems: 'center',
-    backgroundColor: '#2c2e2d',
-    padding: 15,
-    },
-
-    img: {
-      width: 80,
-      height: 80,
-      borderRadius: 100,
-      marginBottom: 10,
-    },
-
-    titulo: {
-        fontSize: 26,
-        fontWeight: 'bold',
-        color: '#107c0f',
-        marginBottom: 5,
-    },
-
-    descricao: {
-        fontSize: 16,
-        color: '#ffffff',
-        marginBottom: 20,
-        textAlign: 'center',
-    },
-
-    card: {
-      backgroundColor: '#3b3e3d',
-      borderRadius: 10,
-      padding: 15,
-    },
-
-    cardTexto: {
-      color: '#ffffff',
-      fontSize: 16,
-      fontWeight: 'bold',
-      textAlign: 'center',
-    },
+    justifyContent: 'center',
+    paddingHorizontal: 20,
+  },
+  img: {
+    width: 100,
+    height: 100,
+    resizeMode: 'contain',
+    marginBottom: 20,
+  },
+  titulo: {
+    color: '#00A94F',
+    fontSize: 28,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  descricao: {
+    color: '#fff',
+    fontSize: 16,
+    textAlign: 'center',
+    marginBottom: 30,
+    paddingHorizontal: 30,
+  },
+  card: {
+    backgroundColor: '#00A94F',
+    borderRadius: 10,
+    width: '80%',
+    alignItems: 'center',
+    paddingVertical: 14,
+    marginVertical: 10,
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
+  cardImg: {
+    width: 50,
+    height: 50,
+    resizeMode: 'contain',
+    marginRight: 10,
+  },
+  cardTexto: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
 });
 
 export default estilos;

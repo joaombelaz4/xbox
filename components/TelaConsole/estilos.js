@@ -1,34 +1,40 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 const estilos = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    backgroundColor: '#f5f5f5',
+  },
+  box: {
     alignItems: 'center',
-    backgroundColor: '#2c2e2d',
-    padding: 15,
-    },
-
-    img: {
-      width: 80,
-      height: 80,
-      borderRadius: 100,
-      marginBottom: 10,
-    },
-
-    titulo: {
-        fontSize: 26,
-        fontWeight: 'bold',
-        color: '#107c0f',
-        marginBottom: 5,
-    },
-
-    descricao: {
-        fontSize: 16,
-        color: '#ffffff',
-        marginBottom: 20,
-        textAlign: 'center',
-    }
+    marginVertical: 20,
+    paddingHorizontal: 20,
+  },
+  img: {
+    width: 200,
+    height: 200,
+    resizeMode: 'contain',
+    marginBottom: 10,
+  },
+  titulo: {
+    color: '#00A94F',
+    fontSize: 26,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  subtitulo: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: '#000',
+    marginBottom: 10,
+  },
+  paragrafo: {
+    color: '#333',
+    fontSize: 15,
+    textAlign: 'center',
+    lineHeight: 22,
+  },
 });
 
 export default estilos;

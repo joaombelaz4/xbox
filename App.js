@@ -5,7 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import TelaInicial from './components/TelaInicial';
 import TelaJogos from './components/TelaJogos';
 import TelaNuvem from './components/TelaNuvem';
-import TelaConsoles from './components/TelaConsoles';
+import TelaConsole from './components/TelaConsole';
 
 const Stack = createNativeStackNavigator();
 
@@ -13,10 +13,10 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Inicial" component={TelaInicial} options={{ title: 'Início' }} />
-        <Stack.Screen name="Jogos" component={TelaJogos} options={{ title: 'Jogos' }} />
-        <Stack.Screen name="Nuvem" component={TelaNuvem} options={{ title: 'Nuvem' }} />
-        <Stack.Screen name="Consoles" component={TelaConsoles} options={{ title: 'Consoles' }} />
+        <Stack.Screen name="Inicial" component={TelaInicial}/>
+        <Stack.Screen name="Jogos" component={TelaJogos}/>
+        <Stack.Screen name="Nuvem" component={TelaNuvem}/>
+  <Stack.Screen name="Consoles" component={TelaConsole}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

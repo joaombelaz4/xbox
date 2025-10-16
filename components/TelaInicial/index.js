@@ -3,7 +3,7 @@ import { View, Image, Text, Pressable } from 'react-native';
 
 import imgFundo from '../../assets/logo.png';
 // Substitui imgConsole por uma imagem disponível no projeto para evitar erro no bundler.
-import imgConsole from '../../assets/xcloud-1.png';
+import imgConsole from '../../assets/xboxbranco.png';
 import imgJogo from '../../assets/jogo-1.png';
 import imgXcloud from '../../assets/xcloud-2.png';
 import estilos from './estilos';

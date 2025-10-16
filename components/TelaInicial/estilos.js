@@ -13,6 +13,7 @@ const estilos = StyleSheet.create({
     height: 100,
     resizeMode: 'contain',
     marginBottom: 20,
+    borderRadius: 360,
   },
   titulo: {
     color: '#00A94F',
@@ -38,8 +39,8 @@ const estilos = StyleSheet.create({
     justifyContent: 'center',
   },
   cardImg: {
-    width: 50,
-    height: 50,
+    width: 75,
+    height: 75,
     resizeMode: 'contain',
     marginRight: 10,
   },

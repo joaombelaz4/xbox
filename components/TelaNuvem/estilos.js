@@ -6,7 +6,7 @@ const estilos = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     resizeMode: 'cover',
-    paddingHorizontal: 20,
+    borderRadius: 25,
   },
   titulo: {
     color: '#00A94F',
@@ -34,6 +34,7 @@ const estilos = StyleSheet.create({
     height: 180,
     resizeMode: 'contain',
     marginTop: 20,
+    borderRadius: 30,
   },
 });
 
